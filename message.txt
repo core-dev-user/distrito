@@ -1,0 +1,313 @@
+# PROMPT MASTER — JOGO DE CARTAS TÁTICO INSPIRADO EM VALORANT
+
+Quero que você desenvolva um jogo de cartas completo, jogável e funcional, inspirado no universo, na identidade visual e na atmosfera competitiva de VALORANT, mas adaptado para um jogo de cartas estratégico que mistura mecânicas de TRUCO e PIFE.
+
+Não quero apenas uma tela bonita, um protótipo visual ou um menu com cartas paradas. Quero um jogo de verdade, com regras funcionais, partidas completas, inteligência artificial para adversários, animações, efeitos visuais, sistema de pontuação e uma interface de alta qualidade.
+
+## 1. CONCEITO DO JOGO
+
+O jogo transforma agentes, armas, habilidades e forças de combate em cartas.
+
+Cada agente representa uma força jogável, com atributos, raridade, habilidades e valor estratégico. O jogador precisa montar combinações, blefar, prever as jogadas adversárias e decidir quando arriscar ou recuar.
+
+A lógica deve combinar:
+
+- **Truco:** disputas de força, blefe, apostas, rodadas, aumento de aposta e possibilidade de desistir.
+- **Pife:** compra e descarte de cartas, formação de trincas e sequências, gerenciamento da mão e busca por combinações.
+- **VALORANT:** agentes, funções táticas, armas, habilidades, energia, efeitos especiais e identidade competitiva.
+
+Não copie simplesmente o Truco ou o Pife. Crie uma experiência própria que combine as duas mecânicas de maneira coerente.
+
+## 2. CÂMERA, PERSPECTIVA E COMPOSIÇÃO
+
+A visão deve ser a de um jogo de cartas digital competitivo, com a mesa vista de cima em perspectiva levemente inclinada, como se o jogador estivesse sentado diante de uma mesa tática.
+
+A composição deve apresentar:
+
+- As cartas do jogador na parte inferior da tela.
+- O adversário principal na parte superior.
+- Informações dos adversários nas laterais quando houver mais participantes.
+- A área central reservada para as cartas em disputa, combinações e efeitos das rodadas.
+- O placar, as apostas e o estado da partida em locais fáceis de identificar.
+- Botões de ação próximos da região de jogo, sem esconder as cartas.
+- Um fundo que lembre uma arena tática futurista, com materiais tecnológicos e detalhes inspirados nos mapas de VALORANT.
+
+A perspectiva precisa ser consistente. Não misture uma mesa em 3D com cartas que pareçam pertencer a uma interface 2D desconectada.
+
+As cartas devem possuir volume visual, sombras coerentes, espessura discreta e animações que respeitem a posição e a perspectiva da mesa.
+
+## 3. IDENTIDADE VISUAL E GRÁFICOS
+
+Quero uma apresentação visual de qualidade profissional, inspirada na direção de arte de VALORANT.
+
+Características obrigatórias:
+
+- Interface tática, moderna e competitiva.
+- Paleta baseada em tons escuros, cinza, preto, branco e vermelho, com cores específicas para identificar agentes e habilidades.
+- Tipografia forte, legível e consistente.
+- Cartas com molduras próprias, ilustrações de personagens, símbolos de função, atributos e raridade.
+- Elementos gráficos inspirados em painéis táticos, tecnologia militar futurista e interfaces de jogos competitivos.
+- Efeitos de luz, partículas, brilhos e impactos usados com moderação.
+- Transições suaves entre as fases da partida.
+- Hierarquia visual clara: o jogador precisa identificar imediatamente quais cartas possui, quais estão em disputa, quem está vencendo e quais ações pode executar.
+
+As ilustrações precisam ter personalidade, boa composição e acabamento consistente. Não utilize personagens representados por simples blocos, formas genéricas ou imagens improvisadas sem unidade artística.
+
+Evite uma aparência genérica de jogo feito por inteligência artificial. Todos os elementos devem parecer parte do mesmo projeto.
+
+Use VALORANT como referência visual e temática. Se o projeto for distribuído publicamente, crie uma identidade própria e utilize personagens, nomes, ilustrações e símbolos originais ou devidamente licenciados, sem apresentar o jogo como um produto oficial.
+
+## 4. SISTEMA DE CARTAS
+
+Crie diferentes categorias de cartas.
+
+### Cartas de agentes
+
+Cada agente deve ter:
+
+- Nome e retrato.
+- Função tática.
+- Força-base.
+- Habilidade especial.
+- Custo de energia, quando aplicável.
+- Raridade.
+- Efeito passivo ou bônus condicional.
+- Sinergias com outras cartas.
+
+As funções devem incluir Duelista, Sentinela, Controlador e Iniciador.
+
+Cada função deve oferecer vantagens e limitações reais. Não faça todas as cartas funcionarem da mesma maneira, alterando apenas o número de força.
+
+### Cartas de armas
+
+Inclua armas inspiradas nas categorias presentes em jogos de tiro tático, como pistolas, submetralhadoras, rifles, escopetas, armas de precisão e armas pesadas.
+
+As armas devem modificar a força ou o comportamento de um agente de acordo com suas regras.
+
+### Cartas de habilidades
+
+Crie habilidades capazes de alterar o resultado das disputas, proteger cartas, revelar informações permitidas pelas regras, interferir na mão adversária ou modificar temporariamente os valores de força.
+
+Os efeitos precisam ter custos, condições e limites claros para evitar estratégias impossíveis de enfrentar.
+
+### Cartas táticas
+
+Inclua blefes, bloqueios, reforços, mudanças de prioridade e efeitos de risco e recompensa.
+
+Toda carta deve ter uma descrição curta e compreensível, com seus efeitos explicados de forma objetiva.
+
+## 5. REGRAS BASEADAS EM TRUCO
+
+Implemente um sistema real de disputas entre jogadores.
+
+A disputa deve incluir:
+
+- Rodadas com cartas colocadas em confronto.
+- Comparação de força e efeitos.
+- Sistema de melhor de três rodadas, quando aplicável.
+- Apostas iniciais.
+- Possibilidade de aumentar a aposta.
+- Opção de aceitar, recusar ou desistir de uma aposta.
+- Sistema de blefe e leitura do adversário.
+- Pontuação por vitória, derrota e desistência.
+- Regras para empates.
+- Limites de aposta e condições de encerramento.
+
+O sistema de apostas deve fazer sentido dentro do jogo. Não use apenas botões decorativos de “Truco”, “Aceitar” e “Correr”: cada ação precisa alterar o estado real da partida.
+
+Crie também regras de força para os agentes, com modificadores condicionais e habilidades que permitam reverter uma disputa.
+
+## 6. REGRAS BASEADAS EM PIFE
+
+Implemente um segundo eixo estratégico baseado na formação de combinações.
+
+O jogador deve poder:
+
+- Comprar cartas de um monte.
+- Comprar cartas de uma pilha de descarte, quando permitido.
+- Descartar cartas.
+- Formar trincas de cartas compatíveis.
+- Formar sequências válidas.
+- Organizar a própria mão.
+- Baixar combinações de acordo com as regras.
+- Finalizar a rodada ao cumprir a condição necessária.
+
+As combinações podem considerar agentes da mesma função, sequências táticas, equipamentos compatíveis e sinergias definidas pelo jogo.
+
+Entretanto, não permita que qualquer conjunto arbitrário de cartas seja considerado válido. Crie regras explícitas para cada combinação e valide-as no código.
+
+O sistema deve identificar combinações possíveis e oferecer indicações visuais ao jogador, sem jogar automaticamente em seu lugar.
+
+## 7. INTEGRAÇÃO ENTRE TRUCO E PIFE
+
+As duas mecânicas precisam funcionar em conjunto.
+
+Desenvolva um modo principal no qual o gerenciamento da mão e a formação de combinações influenciem as disputas de força e as apostas.
+
+Exemplo de funcionamento:
+
+1. Os jogadores recebem suas cartas.
+2. Compram e descartam cartas para melhorar suas mãos.
+3. Formam combinações que liberam bônus ou recursos táticos.
+4. Iniciam disputas usando agentes e efeitos válidos.
+5. Decidem se aumentam a aposta, aceitam o desafio ou recuam.
+6. Resolvem as rodadas, aplicam os efeitos e calculam a pontuação.
+7. A partida continua até que uma condição de vitória seja alcançada.
+
+Esse fluxo é uma proposta inicial. Ajuste a quantidade de cartas, as fases e os limites para produzir partidas equilibradas e evitar que o gerenciamento da mão fique separado das disputas.
+
+Documente as regras finais e implemente-as de forma consistente.
+
+## 8. INTERFACE DA PARTIDA
+
+A tela principal da partida precisa incluir:
+
+- Mão do jogador.
+- Cartas do adversário, ocultas quando necessário.
+- Área central de disputa.
+- Indicador de turno.
+- Pontuação de cada participante.
+- Valor da aposta atual.
+- Recursos disponíveis.
+- Botões de comprar, descartar, jogar carta, usar habilidade, aumentar aposta, aceitar e desistir, conforme a fase.
+- Histórico resumido das ações recentes.
+- Indicação das combinações válidas.
+- Mensagens claras explicando os efeitos das cartas.
+
+Os botões devem ficar habilitados somente quando a ação correspondente for válida.
+
+As cartas selecionadas precisam ter destaque visual. As ações impossíveis devem estar desabilitadas ou explicar o motivo de sua indisponibilidade.
+
+A interface deve se adaptar a diferentes resoluções, sem sobreposição, cortes de cartas ou elementos fora da tela.
+
+## 9. ANIMAÇÕES E EFEITOS
+
+Crie animações específicas para cada ação importante:
+
+- Distribuição das cartas.
+- Compra e descarte.
+- Seleção e movimentação das cartas.
+- Revelação de agentes.
+- Ativação de habilidades.
+- Aumento de aposta.
+- Resolução de disputas.
+- Vitória e derrota.
+- Formação de combinações.
+- Atualização do placar.
+
+Os efeitos devem respeitar a posição das cartas e o estado real do jogo.
+
+Não use animações que apenas escondam mudanças instantâneas de estado ou que permitam jogar novamente antes de a ação anterior terminar.
+
+Priorize fluidez e clareza. Os efeitos não podem dificultar a leitura das cartas ou atrasar desnecessariamente a partida.
+
+## 10. ADVERSÁRIOS COM INTELIGÊNCIA ARTIFICIAL
+
+Crie adversários capazes de:
+
+- Avaliar a força de suas cartas.
+- Procurar combinações úteis.
+- Escolher quais cartas comprar ou descartar.
+- Utilizar habilidades quando houver vantagem.
+- Decidir quando apostar, aumentar ou desistir.
+- Considerar o risco de perder uma disputa.
+- Adaptar suas decisões ao estado da partida.
+
+Implemente pelo menos três níveis de dificuldade:
+
+- Fácil: decisões simples e erros estratégicos ocasionais.
+- Médio: busca combinações e administra recursos razoavelmente.
+- Difícil: avalia riscos, sinergias, pontuação e possíveis respostas do adversário.
+
+A inteligência artificial não deve acessar cartas ocultas do jogador nem informações que não estejam disponíveis pelas regras.
+
+## 11. MODOS DE JOGO
+
+Prepare uma estrutura que permita implementar:
+
+- Partida rápida contra inteligência artificial.
+- Partida competitiva entre vários jogadores controlados pela IA.
+- Modo de treinamento com explicação das regras.
+- Modo de construção de baralho.
+- Sistema de progressão e desbloqueio de cartas.
+
+Priorize primeiro uma partida completa contra a IA. Não crie menus para modos que não funcionam.
+
+Multiplayer online pode ser desenvolvido posteriormente, caso a arquitetura inicial não ofereça suporte a isso.
+
+## 12. PROGRESSÃO E CONSTRUÇÃO DE BARALHO
+
+Crie um sistema de coleção que permita visualizar e organizar as cartas desbloqueadas.
+
+Inclua:
+
+- Coleção de agentes.
+- Cartas de armas e habilidades.
+- Raridades e atributos.
+- Montagem e edição de baralhos.
+- Limites de cópias por carta.
+- Sinergias entre agentes.
+- Progressão de jogador.
+- Recompensas e desbloqueios.
+
+As regras de construção do baralho devem impedir combinações inválidas e garantir que cada partida comece com um baralho legal.
+
+## 13. ARQUITETURA TÉCNICA E QUALIDADE
+
+Antes de modificar ou criar o projeto:
+
+1. Verifique a tecnologia existente e a estrutura dos arquivos.
+2. Identifique os componentes, sistemas e recursos já implementados.
+3. Defina a arquitetura do jogo e a separação entre interface, regras, cartas, IA e animações.
+4. Implemente um sistema central de estado da partida.
+5. Crie funções de validação para compras, descartes, combinações, apostas e disputas.
+6. Separe os dados das cartas das regras que os utilizam.
+7. Garanta que as ações não possam ser executadas fora de turno.
+8. Teste os casos de empate, desistência, efeitos simultâneos, falta de cartas e encerramento da partida.
+
+Não simule a lógica do jogo apenas no frontend. As regras devem ser implementadas em código real, de maneira que a interface apenas apresente e solicite ações válidas.
+
+Se estiver começando do zero, escolha uma tecnologia apropriada para um jogo de cartas digital com interface fluida, animações e possibilidade de expansão. Explique brevemente a escolha antes de implementá-la.
+
+## 14. ORDEM DE EXECUÇÃO
+
+Desenvolva o projeto nesta ordem:
+
+**Fase 1 — Regras:** defina as regras completas, o fluxo da partida, a força das cartas, as combinações e as condições de vitória.
+
+**Fase 2 — Núcleo jogável:** implemente a distribuição, a mão, compra, descarte, combinações, disputas, apostas e pontuação.
+
+**Fase 3 — Inteligência artificial:** crie adversários funcionais e níveis de dificuldade.
+
+**Fase 4 — Interface:** desenvolva a mesa, as cartas, os indicadores, os controles e a organização visual.
+
+**Fase 5 — Identidade visual:** aplique a direção de arte inspirada em VALORANT, com cartas detalhadas, retratos, ícones, materiais e efeitos consistentes.
+
+**Fase 6 — Animações e áudio:** implemente movimentação das cartas, efeitos de habilidade, transições, sons e feedback das ações.
+
+**Fase 7 — Testes e balanceamento:** teste partidas completas, corrija erros, verifique o equilíbrio das cartas e ajuste a experiência.
+
+## 15. CRITÉRIOS DE ACEITAÇÃO
+
+Considere o trabalho concluído somente quando:
+
+- Uma partida completa puder ser jogada do início ao fim.
+- Compra, descarte, combinações, disputas e apostas funcionarem de verdade.
+- A IA conseguir jogar sem depender de ações manuais do desenvolvedor.
+- As regras forem respeitadas em todos os turnos.
+- As cartas tiverem identidade visual consistente e informações legíveis.
+- A interface funcionar em diferentes resoluções.
+- Não existirem botões importantes sem função.
+- O placar, a mão e o estado da partida permanecerem sincronizados.
+- As ações inválidas forem bloqueadas.
+- Os principais cenários tiverem testes verificáveis.
+
+## INSTRUÇÃO FINAL
+
+Não entregue apenas um plano, uma demonstração estática ou uma página inicial. Implemente o jogo no projeto existente, se houver, ou crie a estrutura completa se estiver começando do zero.
+
+Comece definindo as regras que unem Truco e Pife, depois implemente o núcleo jogável e valide uma partida completa antes de investir em efeitos visuais complexos.
+
+Não substitua sistemas funcionais por simulações, não esconda erros com animações e não declare uma funcionalidade concluída sem testá-la.
+
+Ao terminar cada fase, informe o que foi implementado, quais arquivos foram alterados, o que foi testado e quais limitações ainda existem.

@@ -1,0 +1,21 @@
+{
+  "name": "distrito-tactical-cards",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Jogo de cartas tático original que combina disputas e combinações.",
+  "scripts": {
+    "dev": "node scripts/server.js",
+    "start": "node scripts/server.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/cards.js && node --check src/engine.js && node --check src/ai.js && node --check src/profile.js && node --check src/app.js && node --check scripts/server.js && node --check scripts/build.js",
+    "test:browser": "node scripts/browser-test.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.64.0"
+  }
+}

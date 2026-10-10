@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191d"><meta name="description" content="Distrito: um jogo de cartas tático original. Forme combinações, dispute confrontos e aposte contra a IA.">
+  <title>DISTRITO — Cartas táticas</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#partida" aria-label="Distrito — partida"><span class="brand-symbol">D</span><span>DISTRITO<small>TACTICAL CARD GAME</small></span></a>
+    <nav aria-label="Principal"><button class="nav-link active" data-page="match">JOGAR <span class="nav-dot"></span></button><button class="nav-link" data-page="collection">COLEÇÃO</button><button class="nav-link" data-page="guide">COMO JOGAR</button></nav>
+    <div class="profile-header"><span class="profile-mark">◈</span><div><strong>OPERADOR</strong><small id="profile-level">NÍVEL 01</small></div><button id="sound-toggle" class="icon-button" aria-label="Ativar áudio" title="Ativar áudio">♪<span class="muted-slash">/</span></button></div>
+  </header>
+  <main id="app"></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="card-detail"><div id="detail-content"></div><button class="button subtle" id="close-detail">FECHAR</button></dialog>
+  <dialog id="restart-dialog"><span class="eyebrow">NOVA OPERAÇÃO</span><h2>Pronto para outra partida?</h2><p>A partida atual será encerrada. Sua coleção e seu baralho são preservados.</p><div class="dialog-actions"><button class="button subtle" id="cancel-restart">CONTINUAR ATUAL</button><button class="button primary" id="confirm-restart">INICIAR PARTIDA</button></div></dialog>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
